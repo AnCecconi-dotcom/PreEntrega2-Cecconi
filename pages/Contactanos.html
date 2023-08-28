@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <title>Contactanos</title>
+</head>
+
+<body>
+
+    <!-- --------- HEADER / NAV ---------- -->
+
+    <header class="header">
+        <a href="../index.html" class="logo">
+            <img src="../img/Logo/Captura de Pantalla 2023-07-23 a la(s) 19.37.41.png" alt="logo">
+        </a>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="../pages/SobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="../pages/NuestrosProductos.html">Nuestra Propuesta</a></li>
+                <li><a href="../pages/NuestrosClientes.html">Nuestros Clientes</a></li>
+                <li><a href="../pages/Contactanos.html">Contactanos</a></li>
+                <li class="no-background"><a href=""><img src="../img/estados-unidos-de-america.png" alt="US flag"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--------- FORMAULARIO ---------->
+
+    <section class="contacto">
+        <h1>CONTACTANOS</h1>
+
+        <div class="contenedor-form">
+            <form action="#" method="get">
+
+                <label for="">Nombre y Apellido</label><br>
+                <input type="text" required name="identidad">
+                <br><br>
+
+                <label for="">Edad</label><br>
+                <input type="number" min="0" max="99" required name="edad">
+                <br><br>
+
+                <label for="">Email</label><br>
+                <input type="email" required name="email">
+                <br><br>
+
+                <label for="">Celular</label><br>
+                <input type="number" required name="celular">
+                <br><br>
+
+                <label for="">Pais</label><br>
+                <select name="pais">
+                    <option value="ARG">Argentina</option>
+                    <option value="BOL">Bolivia</option>
+                    <option value="BRA">Brasil</option>
+                    <option value="CHI">Chile</option>
+                    <option value="COL">Colombia</option>
+                    <option value="ECU">Ecuador</option>
+                    <option value="MEX">Mexico</option>
+                    <option value="PAR">Paraguay</option>
+                    <option value="PER">Peru</option>
+                    <option value="URU">Uruguay</option>
+                    <option value="VEN">Venezuela</option>
+                </select>
+                <br><br>
+
+                <label for="">Como prefieres que te contactemos?</label><br><br>
+                <label>Celular</label>
+                <input type="radio" name="turno" value="diurno" />
+                <label>Email</label>
+                <input type="radio" name="turno" value="nocturno" />
+                <br><br>
+
+                <input class="submit" type="submit">
+                <br><br>
+            </form>
+        </div>
+    </section>
+
+    <!-- --------- FOOTER ---------- -->
+
+    <footer class="footer">
+        <div class="img-1">
+            <img src="../img/data-fiscal.png" alt="">
+        </div>
+        <div class="img-2">
+            <a href="https://www.linkedin.com/company/hs-consulting/" target="_blank"><img
+                    src="../img/linkedin-logo.png" alt=""></a>
+            <p><a href="www.linkedin.com/company/hs-consulting">www.linkeding.com/hs-consulting</a></p>
+        </div>
+        <div class="img-3">
+            <img src="../img/footer-img2.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
