@@ -1,56 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* NAVBAR */
+nav div div a:hover{
+    color: aliceblue!important;
 }
-
-/* NAVEGADOR */
-
-.header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.logo img {
-    width: 200px;
-}
-
-.nav ul {
-    list-style: none;
-    height: 60px;
-}
-
-.nav ul li {
-    display: inline;
-    border-radius: 10px;
-    background-color: blue;
-    padding: 5px;
-    margin: 5px;
-
-}
-
-.nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.nav ul li a img {
-    width: 15px;
-}
-
-.nav ul li:hover {
-    background-color: blue;
-    color: blanchedalmond;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.header .nav .no-background{
-    background-color: white;
-}
-
 /* --------- BODY SECTION 1 --------- */
 
 .section-1 {
