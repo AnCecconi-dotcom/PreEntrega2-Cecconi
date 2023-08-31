@@ -1,9 +1,11 @@
 /* NAVBAR */
+nav{
+    padding: 0px!important;
+}
 nav div div a:hover{
     color: aliceblue!important;
 }
 /* --------- BODY SECTION 1 --------- */
-
 .section-1 {
     background-image: url(../img/istockphoto-1174511028-1024x1024-transformed.jpeg);
     background-repeat: no-repeat;
@@ -31,8 +33,7 @@ nav div div a:hover{
 }
 
 .section-1 div a button {
-    background-color: blue;
-    color: aliceblue;
+    background-color: #0e6efd;
     font-size: 20px;
     border-radius: 10px;
     padding: 12px 28px;
@@ -40,59 +41,21 @@ nav div div a:hover{
 }
 
 .section-1 div a button:hover {
-    background-color: blue;
+    background-color: #0e6efd;
     color: blanchedalmond;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* --------- BODY SECTION 2 --------- */
-
-.section-2 {
-    background-color: #f5f5f5;
-    height: 550px;
+.background-img{
+    background-image: url(../img/white-studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
-.section-2 h1 {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-.section-2 .contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.section-2 .contenedor div {
-    margin: 100px;
-}
-
-.section-2 img {
-    width: 150px;
-}
-
-.section-2 a {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 30px;
-}
-
-.section-2 a button {
-    background-color: blue;
-    color: aliceblue;
-    font-size: 17px;
-    border-radius: 10px;
-    padding: 12px 28px;
-    width: 300px;
-
-}
-
-.section-2 a button:hover {
-    background-color: blue;
-    color: blanchedalmond;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.padding-0{
+    padding: 0px;
+    margin: 0px;
 }
 
 /* --------- BODY SECTION 3 --------- */
