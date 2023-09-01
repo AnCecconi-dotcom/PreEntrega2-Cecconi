@@ -107,6 +107,20 @@ nav div div a:hover{
     width: 200px;
     ;
 }
+@media (max-width:600px){
+    .footer .img-1 img {
+        width: 50px;
+    }
+    
+    .footer .img-2 img {
+        width: 25px;
+    }
+        
+    .footer .img-3 img {
+        width: 100px;
+        ;
+    }
+}
 
 /* -------------- PAGINA "CONTACTANOS" -------------- */
 
