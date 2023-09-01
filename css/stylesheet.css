@@ -5,6 +5,7 @@ nav{
 nav div div a:hover{
     color: aliceblue!important;
 }
+/* Index */
 /* --------- BODY SECTION 1 --------- */
 .section-1 {
     background-image: url(../img/istockphoto-1174511028-1024x1024-transformed.jpeg);
@@ -172,4 +173,9 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+/* Nuestros Clientes Page */
+.background-section{
+    background-color: #f5f5f5;
 }
